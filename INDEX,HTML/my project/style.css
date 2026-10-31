@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background: #f5f5f5;
+}
+
+/* Navbar */
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 8%;
+background: #17202a;
+color: white;
+}
+
+.navbar ul {
+display: flex;
+list-style: none;
+gap: 25px;
+}
+
+.navbar a {
+text-decoration: none;
+color: white;
+}
+
+.nav-btn,
+.btn {
+background: #d4a017;
+padding: 12px 20px;
+border-radius: 5px;
+}
+
+/* Hero */
+
+.hero {
+height: 500px;
+background:
+linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200");
+
+```
+background-size: cover;
+background-position: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+```
+
+}
+
+.hero h1 {
+font-size: 45px;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 20px;
+margin-bottom: 30px;
+}
+
+/* Common Sections */
+
+section {
+padding: 70px 8%;
+text-align: center;
+}
+
+section h2 {
+font-size: 32px;
+margin-bottom: 30px;
+}
+
+/* Rooms */
+
+.room-container {
+display: flex;
+justify-content: center;
+gap: 25px;
+flex-wrap: wrap;
+}
+
+.room-card {
+background: white;
+width: 300px;
+padding-bottom: 20px;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.room-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.room-card h3 {
+margin: 15px;
+}
+
+.room-card p {
+margin-bottom: 15px;
+}
+
+button {
+background: #d4a017;
+color: white;
+border: none;
+padding: 12px 20px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+/* Services */
+
+.service-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+width: 250px;
+border-radius: 10px;
+}
+
+/* Booking */
+
+.booking form {
+max-width: 450px;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.booking input,
+.booking select {
+padding: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+/* Contact */
+
+.contact {
+background: #17202a;
+color: white;
+}
+
+/* Footer */
+
+footer {
+background: #101820;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+```
+.navbar {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.room-container {
+    flex-direction: column;
+    align-items: center;
+}
+```
+
+}

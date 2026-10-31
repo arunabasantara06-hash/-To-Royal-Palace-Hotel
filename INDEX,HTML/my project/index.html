@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Royal Palace Hotel</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- Navbar -->
+
+<header>
+    <nav class="navbar">
+
+        <h2>Royal Palace</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#booking" class="nav-btn">Book Now</a>
+
+    </nav>
+</header>
+
+
+<!-- Home Section -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>Welcome To Royal Palace Hotel</h1>
+
+        <p>
+            Experience Luxury, Comfort And Beautiful Memories.
+        </p>
+
+        <a href="#booking" class="btn">Book Your Stay</a>
+
+    </div>
+
+</section>
+
+
+<!-- About Section -->
+
+<section class="about" id="about">
+
+    <h2>About Our Hotel</h2>
+
+    <p>
+        Royal Palace Hotel provides luxury rooms,
+        delicious food and excellent hospitality.
+        Enjoy your stay with comfort and happiness.
+    </p>
+
+</section>
+
+
+<!-- Rooms Section -->
+
+<section class="rooms" id="rooms">
+
+    <h2>Our Rooms</h2>
+
+    <div class="room-container">
+
+        <div class="room-card">
+            <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600"
+            alt="Deluxe Room">
+
+            <h3>Deluxe Room</h3>
+
+            <p>₹2,000 / Night</p>
+
+            <button onclick="bookRoom('Deluxe Room')">
+                Book Now
+            </button>
+        </div>
+
+
+        <div class="room-card">
+            <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600"
+            alt="Luxury Room">
+
+            <h3>Luxury Room</h3>
+
+            <p>₹3,500 / Night</p>
+
+            <button onclick="bookRoom('Luxury Room')">
+                Book Now
+            </button>
+        </div>
+
+
+        <div class="room-card">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600"
+            alt="Premium Suite">
+
+            <h3>Premium Suite</h3>
+
+            <p>₹5,000 / Night</p>
+
+            <button onclick="bookRoom('Premium Suite')">
+                Book Now
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Services -->
+
+<section class="services" id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-container">
+
+        <div class="service-card">
+            <h3>🍽 Restaurant</h3>
+            <p>Enjoy delicious food.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>🏊 Swimming Pool</h3>
+            <p>Relax in our swimming pool.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>🚗 Parking</h3>
+            <p>Safe parking facilities.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Booking Form -->
+
+<section class="booking" id="booking">
+
+    <h2>Book Your Room</h2>
+
+    <form id="bookingForm">
+
+        <input type="text"
+        id="name"
+        placeholder="Your Name"
+        required>
+
+        <input type="email"
+        id="email"
+        placeholder="Your Email"
+        required>
+
+        <input type="date"
+        id="checkin"
+        required>
+
+        <input type="date"
+        id="checkout"
+        required>
+
+        <select id="room">
+            <option value="">Select Room</option>
+            <option>Deluxe Room</option>
+            <option>Luxury Room</option>
+            <option>Premium Suite</option>
+        </select>
+
+        <button type="submit">Confirm Booking</button>
+
+    </form>
+
+    <p id="message"></p>
+
+</section>
+
+
+<!-- Contact -->
+
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>Email: royalpalace@gmail.com</p>
+
+    <p>Phone: +91 9876543210</p>
+
+    <p>Location: Bhubaneswar, Odisha</p>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer>
+
+    <p>© 2026 Royal Palace Hotel. All Rights Reserved.</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+```
+
+</body>
+
+</html>
